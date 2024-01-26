@@ -1,0 +1,79 @@
+#fit4life-container div.flexbox:first-child {
+    
+}
+
+#fit4life-container ul li {
+    list-style-type: disc;
+    text-shadow: none;
+
+}
+
+#fit4life-container p ul {
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+#fit4life-container .quote {
+    font-size: 1.5rem;
+}
+
+#fit4life-container div.flexbox:nth-of-type(3) {
+    background-color: black;
+    color: white;
+}
+
+#fit4life-container #home2{
+    background-color: white;
+    color: black;
+}
+
+#fit4life-container #home2 button{
+    background-color: black;
+    color: white;
+}
+
+#fit4life-container div.hero-wrapper:nth-child(2) {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#fit4life-container div.hero-wrapper:nth-child(2) button{
+    background-color: white;
+    color: black;
+}
+
+
+
+#fit4life-container div.hero-wrapper:nth-child(4){
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+#fit4life-container div.hero-wrapper:nth-child(4) button {
+    background-color: white;
+    color: black;
+}
+
+
+
+@media screen and (min-width: 992px) {
+    #fit4life-container div.flexbox:first-child {
+        /* background: linear-gradient(to right, var(--bg1) 60%, white 60%); */
+    }
+
+    #fit4life-container #fit4life-container div.hero {
+        font-size: 1.5rem;
+    }
+
+    #fit4life-container div.flexbox:nth-of-type() p ul li {
+        list-style-type: disc;
+        text-shadow: none;
+
+    }
+
+
+
+
+}

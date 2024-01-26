@@ -1,0 +1,55 @@
+.testimonials-container{
+    max-width: 1024px;
+    padding: 1rem;
+    margin: auto;
+    /* padding: auto; */
+    margin-top: 2rem;
+    display: grid;
+    justify-content: center;
+}
+
+
+
+.testimonials-buttons-top{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1440px;
+    
+}
+
+.testimonials-buttons-top button{
+    margin-top: 0;
+}
+
+.testimonials-container h1{
+    margin-bottom: 2rem;
+}
+
+.testimonials-heading h1{
+    padding: 1rem;
+    margin: auto;
+    max-width: 1024px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    font-weight: 500;
+}
+
+.mobile-show{
+    display: none;
+}
+
+
+
+/* RESPONSIVE STYLES */
+/* SMALL SCREEN */
+@media screen and (max-width: 992px) {
+    .testimonials-container{
+        padding: 1rem;
+    }
+
+        .mobile-show {
+            display: block;
+        }
+}

@@ -1,0 +1,45 @@
+.menu-test{
+    margin-top: -95px;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+
+}
+
+.menu-test img{
+    padding: 1rem;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    /* margin-top: 3rem; */
+
+}
+
+.menu-flexbox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu-flexbox-links{
+    display: none;
+}
+@media screen and (min-width: 992px) {
+    .menu-flexbox-links{
+        display: block
+    };
+
+}

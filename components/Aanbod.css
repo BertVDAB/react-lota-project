@@ -1,0 +1,54 @@
+:root {
+    --bg1: #C78FC0;
+    /* OG GROEN KLEUR --bg2: #007F66;
+     */
+     --bg2: #D2ED8C;
+    --bg3: #fff450;
+}
+
+#aanbod-hero {
+    background-image: url('../img/aanbod/hero.jpg');
+    background-size: cover;
+    color: white;
+}
+
+
+
+#aanbod-container div.flexbox:nth-of-type(2) {
+    background-color: white
+}
+
+#aanbod-container div.flexbox:nth-of-type(2) {
+    background-color: var(--bg1);
+}
+
+#aanbod-container div.flexbox:nth-of-type(3) {
+    background-color: var(--bg3);
+}
+
+#aanbod-container div.flexbox:nth-of-type(4) {
+    background-color: var(--bg2);
+}
+
+@media screen and (min-width: 992px) {
+    #aanbod-container div.flexbox:nth-of-type(2) {
+        background: linear-gradient(to right, var(--bg1) 60%, white 60%);
+    }
+
+    #aanbod-container div.flexbox:nth-of-type(3) {
+        background: linear-gradient(to right, var(--bg3) 60%, white 60%);
+        
+    }
+
+    #aanbod-container div.flexbox:nth-of-type(4) {
+        background: linear-gradient(to right, var(--bg2) 60%, white 60%);
+    }
+#aanbod-container .flex1{
+    margin-left: 120px;
+}
+
+
+
+
+
+}

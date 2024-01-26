@@ -1,0 +1,29 @@
+video {
+    width: 100%;
+    object-fit: cover;
+}
+
+.video-wrapper {
+    position: relative;
+    display: grid;
+    max-width: 1440px;
+    margin: auto;
+}
+
+.video-title {
+    position: absolute;
+    top: 50%;
+    transform: translate(1rem, -50%);
+    color: white;
+    z-index: 1;
+}
+
+/* RESPONSIVE STYLES */
+@media screen and (min-width: 992px) {
+    .video-title {
+        top: 50%;
+        transform: translate(120px, -50%);
+        color: white;
+        z-index: 1;
+    }
+}

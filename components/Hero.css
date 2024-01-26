@@ -1,0 +1,42 @@
+.hero-wrapper {
+    max-width: 1440px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 400px;
+    height: 100%;
+    display: grid;
+}
+
+
+.hero-wrapper .hero {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+    /* text-shadow: black 0px 0px 10px; */
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+}
+
+.hero--content > h2{
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+/* RESPONSIVE STYLES */
+@media screen and (min-width: 992px) {
+
+    .hero {
+        flex-direction: row;
+    }
+
+    .hero-wrapper .hero {
+        padding-left: 120px;
+    }
+
+    .hero-wrapper {
+        margin: 0 auto;
+    }
+}

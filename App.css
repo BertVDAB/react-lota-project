@@ -1,0 +1,89 @@
+:root {
+  --bg1: #C78FC0;
+  --bg2: #007F66;
+  --bg3: #fff450;
+  --bg4: #83007F;
+  --header-height: 95px;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+/* REVEAL FOOTER */
+.position-relative {
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.cta-overlay {
+  position: fixed;
+  border-radius: 50%;
+  margin: 2rem;
+  z-index: 22222;
+  top: 0;
+  width: 120px;
+  height: 120px;
+  background-color: red;
+  color: #83007F;
+  max-width: 1440px;
+}
+
+
+
+
+
+
+
+
+/* .staand{
+  height: 700px;
+  width: auto;
+}
+
+.liggend {
+  width: 550px;
+  height: auto;
+  
+} */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box !important;
+  overflow-x: hidden !important;
+}
+
+#top-margin-menu {
+  margin-top: 95px;
+}
+
+/* activate toggle */
+.accordion_item.active .button {
+  background-color: --bg4;
+}
+
+.answer_wrapper {
+  height: 0;
+  overflow: hidden;
+}
+
+.answer_wrapper.open {
+  height: auto;
+}
+
+@media screen and (min-width: 992px) {
+  #top-margin-menu {
+    margin-top: 0px;
+  }
+
+  img {
+    max-height: 600px;
+    max-width: 100%;
+    padding-right: 2rem;
+  }
+}

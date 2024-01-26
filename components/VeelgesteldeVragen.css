@@ -1,0 +1,17 @@
+.faq-container{
+    padding: 2rem;
+}
+
+#faq-hero{
+    color: white;
+}
+
+#faq-hero h2{
+    /* max-width: 1ch; */
+}
+
+.faq-container a {
+    color: #83007F;
+    text-decoration: underline;
+    font-weight: bold;
+}

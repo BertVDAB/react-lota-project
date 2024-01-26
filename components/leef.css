@@ -1,0 +1,50 @@
+#leef-hero{
+    background-size: cover;
+    color: white;
+    background-position: 50%;
+}
+
+#leef2{
+    color: white;
+    background-color: black;
+}
+
+/* RESPONSIVE STYLES */
+@media screen and (min-width: 992px) {
+   
+
+   #leef2, #leef4{
+       flex-direction: row-reverse;
+   }
+
+   #leef1 .flex1,
+   #leef3 .flex1,
+   #leef2 .flex2,
+   #leef4 .flex2 {
+       margin-left: 120px;
+   }
+
+   #leef-container #eet1{
+    background: white;
+   }
+
+   #leef-container .flex1,
+   #leef-container .flex2 {
+       justify-content: center;
+   }
+
+   #leef-container #eet2 {
+    flex-direction: row-reverse;
+    background: black;
+    
+   }
+   #leef-container #eet2 .flex2 {
+    align-items: end;
+   }
+   #leef-container #eet2 .flex1 {
+    align-items: start;
+   }
+   #leef-container #eet3{
+    background-color: white;
+   }
+}

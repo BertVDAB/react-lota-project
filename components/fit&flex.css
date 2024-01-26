@@ -1,0 +1,43 @@
+div.flexbox:first-child {
+    background: linear-gradient(to right, var(--bg) 62%, white 62%);
+}
+
+div.flexbox:nth-of-type(3) {
+    /* CSS styles */
+    background-color: black;
+    color: white;
+}
+
+div.flexbox:nth-of-type(3) p ul {
+    /* CSS styles */
+    padding-top: 2rem;
+    padding-left: 2rem;
+    color: white;
+}
+
+div.hero-wrapper:nth-of-type(2) .quote {
+    font-size: 1.5rem;
+    /* CSS styles */
+
+
+}
+
+div.hero-wrapper:nth-of-type(4) {
+    /* CSS styles */
+    background-color: var(--bg3);
+
+}
+
+div.hero-wrapper:nth-of-type(4) p ul {
+    padding-top: 2rem;
+    padding-left: 2rem;
+    /* CSS styles */
+
+
+}
+
+p ul {
+    color: black;
+    list-style-type: disc;
+    text-shadow: none;
+}

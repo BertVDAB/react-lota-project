@@ -1,0 +1,31 @@
+.hero-banner{
+    /* color: #fff; */
+    background-repeat: repeat;
+    background-size: 20%;
+    min-height: 50vh;
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+}
+
+.hero-bottom{
+    background-repeat: repeat;
+}
+
+.hero--content{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#hero-middle h2, #hero-middle p{
+    max-width: 400px;
+    
+}
+
+@media screen and (min-width: 992px) {
+
+.hero--content{
+    max-width: 80%;
+}    
+
+}
+
+

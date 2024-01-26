@@ -1,0 +1,157 @@
+.carousel-root {
+    max-width: 1024px;
+    margin: auto;
+}
+
+.carousel-root img {
+    width: 400px;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel .control-dots .dot {
+    background-color: black;
+}
+
+.carousel .control-prev.control-arrow:before {
+    border-right: 8px solid black;
+}
+
+.carousel .control-prev.control-arrow:hover {
+    background-color: transparent;
+}
+
+.carousel .control-next.control-arrow:before {
+    border-left: 8px solid black;
+}
+
+.carousel .control-next.control-arrow:hover {
+    background-color: transparent;
+}
+
+#q1 {
+    position: absolute;
+    top: 2rem;
+}
+
+#q2 {
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+}
+
+.car-flex2--content {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+}
+
+.carousel .slide .legend {
+    font-size: 1.5rem;
+    color: black;
+    background-color: white;
+    opacity: 1;
+}
+
+.carousel {
+    /* padding-bottom: 4rem; */
+}
+
+.carousel .slide .legend::before,
+.carousel .slide .legend::after {
+    content: '"';
+}
+
+.carousel .control-dots {
+    /* position: absolute;
+    bottom: px; */
+}
+
+#testing {
+    position: absolute;
+    width: 100%;
+}
+
+.car-flexbox {
+    padding: 2rem;
+    display: flex;
+
+}
+
+.car-flex1 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 500px;
+    /* border: 1px solid grey; */
+    background-color: #f7f7f7;
+}
+
+.car-flex2 {
+    position: relative;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-items: stretch;
+    width: 70%;
+    height: 500px;
+    /* border: 1px solid grey; */
+    background-color: #f7f7f7;
+}
+
+
+
+.car-name {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* position: absolute; */
+    /* bottom: 2rem; */
+}
+
+.thumbnail{
+    display: none;
+}
+
+
+
+/* RESPONSIVE STYLES */
+/* SMALL SCREENS */
+@media screen and (max-width: 992px) {
+    .carousel-root {
+        max-width: 90vw;
+        display: none;
+    }
+
+    .car-flex1 {
+        display: none;
+    }
+
+    .car-flex2 {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    #q1,
+    #q2 {
+        display: none;
+    }
+
+    .thumbnail{
+        /* position: absolute; */
+        display: block;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+
+
+
+}

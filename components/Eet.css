@@ -1,0 +1,44 @@
+:root {
+    --margin-left: 120px;
+}
+
+#eet-hero,
+#eet-hero-bottom {
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#eet-container #eet2,
+#eet-container #eet4 {
+    background: black;
+    color: white;
+}
+
+#eet2 button,
+#eet4 button {
+    background-color: white;
+    color: black;
+}
+
+
+
+/* RESPONSIVE STYLES */
+@media screen and (min-width: 992px) {
+
+
+    #eet2,
+    #eet4 {
+        flex-direction: row-reverse;
+    }
+
+    #eet1 .flex1,
+    #eet3 .flex1,
+    #eet2 .flex2,
+    #eet4 .flex2,
+    #eet5 .flex1 {
+        margin-left: var(--margin-left)
+    }
+}

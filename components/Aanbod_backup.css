@@ -1,0 +1,12 @@
+:root {
+    --bg1: #C78FC0;
+    --bg2: #007F66;
+    --bg3: #fff450;
+}
+
+#aanbod-hero {
+    background-image: url('../img/aanbod/hero.jpg');
+    background-size: cover;
+    color: white;
+}
+

@@ -1,0 +1,240 @@
+#menu {
+    /* background-color: red; */
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.contact-button{
+    background-color: white;
+    color: black;
+}
+
+.contact-button-inverted{
+    background-color: black;
+    color: white;
+}
+
+.gesprek-desktop button{
+    margin: 0;
+    padding: 1rem;
+
+}
+
+.gesprek-desktop{
+    display: grid;
+        place-items: center;
+        padding: 1rem;
+        
+}
+
+.gesprek-mobile{
+    display: grid;
+    place-items: center;
+    padding: 1rem;
+    display: none;
+}
+
+header {
+    /* overflow: hidden; */
+    position: fixed;
+    /* background-color: white; */
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+    z-index: 1000;
+    height: 95px;
+}
+
+#logo {
+    filter: invert(100%);
+}
+
+#hamburger .nav-menu .nav-menu-3 ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.nav-menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 100vh;
+    z-index: 999;
+}
+
+#navbar {
+    position: sticky;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 1rem;
+    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);   */
+    z-index: 1003;
+}
+
+.nav-menu {
+    position: fixed;
+    color: white;
+    background-color: black;
+    min-height: calc(100vh);
+    max-width: 1440px;
+    margin: auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+
+header .flex-1 {
+    /* margin: 1rem; */
+    background-image: url(../img/menu/2.jpg);
+    /* background-image: url(../img/menu/1.png); */
+    /* background-repeat: no-repeat; */
+    background-size: cover;
+
+    /* background-size: 100%; */
+    background-position: center center;
+    background-repeat: repeat;
+    /* height: 100vh; */
+}
+
+/* header .flex-1 img {
+    width: 100%;
+    height: auto;
+} */
+.nav-menu-3-padding {
+    margin-left: 7rem;
+}
+
+
+
+header .flex-1,
+.flex-2 {
+    width: 50%;
+    height: calc(100vh);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 1rem;
+    padding: 3rem;
+}
+
+.nav-menu-1 {
+    font-size: 2rem;
+}
+
+.nav-menu-2 {
+    font-size: 1.5rem;
+}
+
+.nav-menu-3 {
+    font-size: 1.5rem;
+    position: absolute;
+    bottom: 10vh;
+    color: grey;
+
+}
+
+header .flex-2 {
+    height: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+header .active {
+    display: flex;
+}
+
+.mobile-white-bg {
+    background-color: white !important;
+}
+
+.invert-hamburger {
+    filter: invert(100%) !important;
+
+}
+
+.invert-logo {
+    filter: invert(0%) !important;
+}
+
+#logo {
+    filter: invert(0%);
+}
+
+#hamburgermenu {
+    filter: invert(100%);
+}
+
+
+
+@media screen and (min-width: 992px) {
+    #hamburgermenu {
+        filter: invert(0%);
+    }
+
+    .invert-logo {
+        filter: invert(100%) !important;
+    }
+
+    #logo {
+        filter: invert(100%);
+    }
+
+    .mobile-white-bg {
+        background-color: transparent !important;
+    }
+
+    #navbar {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
+
+    #navbar .flex-1 {
+        display: flex;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+
+    .gesprek-desktop{
+        display: none;
+    }
+
+    .gesprek-mobile{
+        display: block;
+    }
+
+
+    header {
+        background-color: white;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    }
+
+    .nav-menu .flex-1 {
+        display: none;
+    }
+
+    .nav-menu .flex-2 {
+        width: 100%;
+    }
+
+    .nav #top-margin-menu {
+        height: 95px;
+    }
+
+}

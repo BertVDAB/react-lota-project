@@ -1,0 +1,48 @@
+#fitNflex-container div.flexbox:first-child {
+    background-color: var(--bg2);
+}
+
+#fitNflex-omvat{
+    background-color: var(--bg2);
+    min-height: 100vh;
+}
+
+#fitNflex-omvat h2{
+    color: black;
+}
+#fitNflex-container ul li {
+    list-style-type: disc;
+    text-shadow: none;
+
+}
+#fitNflex-container p ul {
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+#fitNflex-container .quote {
+    font-size: 1.5rem;
+}
+#fitNflex-container div.flexbox:nth-of-type(3) {
+    background-color: black;
+    color: white;
+}
+
+@media screen and (min-width: 992px) {
+    #fitNflex-container div.flexbox:first-child {
+        background: linear-gradient(to right, var(--bg2) 60%, white 60%);
+    }
+
+    #fitNflex-container #fitNflex-container div.hero {
+        font-size: 1.5rem;
+    }
+
+    #fitNflex-container div.flexbox:nth-of-type() p ul li {
+        list-style-type: disc;
+        text-shadow: none;
+
+    }
+
+    
+
+
+}

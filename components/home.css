@@ -1,0 +1,147 @@
+/* PARALLAX TESTING */
+#home-container {
+    position: relative;
+    z-index: 2;
+
+}
+
+/* EINDE PARALLAX TESTING */
+#home-hero,
+#home-hero-bottom {
+    color: white;
+    min-height: 50vh;
+}
+
+#home-container #home-hero-bottom {
+    min-height: 100vh;
+}
+
+#home-hero-bottom button {
+    background-color: white;
+    color: black;
+}
+
+#hero-middle {
+    color: white;
+}
+
+#hero-middle button {
+    background-color: white;
+    color: black;
+}
+
+#home-container #home1,
+#home-container #home3 {
+    /* background: var(--bg1); */
+    background-color: white;
+}
+
+#home-container #home2 {
+    background: black;
+    color: white;
+
+}
+
+#home-container #home {
+    /* background: var(--bg1); */
+    background-color: white;
+}
+
+/* #home-container #home3 {
+    background: var(--bg2);
+} */
+
+
+#home-container #home4 {
+    background: black;
+    color: white;
+}
+
+#home-container #home4 button {
+    background-color: white;
+    color: black;
+}
+
+#home4 button {
+    background-color: white;
+    color: black;
+}
+
+#home2 button {
+    background-color: white;
+    color: black;
+}
+
+#hero-middle {
+    background-color: blueviolet;
+}
+
+@media screen and (min-width: 992px) {
+
+    #home2,
+    #home4 {
+
+        flex-direction: row-reverse;
+    }
+
+    #home1 .flex1,
+    #home3 .flex1,
+    #home2 .flex2,
+    #home4 .flex2 {
+        margin-left: 120px;
+    }
+
+    #home-container #home1 {
+        flex-direction: row;
+
+    }
+
+    #home-container #home1,
+    #home-container #home3 {
+        /* background: var(--bg1); */
+        background: white;
+    }
+
+    #home-container .flex1,
+    #home-container .flex2 {
+        justify-content: center;
+    }
+
+
+    #home-container #home1 .flex2,
+    #home-container #home3 .flex2 {
+        /* persoonlijke voedingsbegeleiding image */
+        /* background: linear-gradient(90deg, var(--bg1) 10%, white 10%); */
+    }
+
+    #home-container #home2 .flex1 {
+        /* mijn aanpak text */
+        align-items: start;
+
+    }
+
+    #home-container .flexbox {
+        max-width: 1440px;
+        column-gap: 4rem;
+    }
+
+    #home-container #home2 .flex2 {
+        /* mijn aanpak text */
+        align-items: end;
+
+    }
+
+    #home-container #home2 {
+        background: black;
+        color: white;
+    }
+
+
+    #home-container #home-hero-bottom {
+        min-height: 50vh;
+    }
+
+
+
+
+}

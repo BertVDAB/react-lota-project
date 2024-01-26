@@ -1,0 +1,45 @@
+#ontmoet-hero, #ontmoet-hero-bottom  {
+    color: white;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* #ontmoet3 .flex1--content{
+    max-width: 500px;
+} */
+
+
+#ontmoet-container #ontmoet2 {
+    background: black;
+    color: white;
+}
+
+#ontmoet-hero h2{
+    max-width: 1ch;
+}
+
+
+
+
+/* RESPONSIVE STYLES */
+@media screen and (min-width: 992px) {
+    
+
+    #ontmoet2 {
+        flex-direction: row-reverse;
+    }
+
+    #ontmoet1 .flex1, #ontmoet3 .flex1,
+    #ontmoet2 .flex2
+    {
+        margin-left: 120px;
+    }
+
+
+
+    
+
+    
+
+
+}
